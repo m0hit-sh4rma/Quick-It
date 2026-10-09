@@ -59,6 +59,15 @@ header button {
     overflow-x: scroll;
 }
 
+#products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 125px;
+}
+
 @media (max-width: 800px) {
     header input {
         width: 250px;
